@@ -1,0 +1,102 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>SIPOLDATA</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../custom.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <ul class="nav-link">
+          <li>
+            <a href="/index.html"><img src="/assets/logo.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="/index.html">BERANDA</a>
+          </li>
+          <li>
+            <a href="/pages/aduan.html">ADUAN</a>
+          </li>
+          <li>
+            <a href="/pages/lacak.html">LACAK</a>
+          </li>
+          <li>
+            <a href="/pages/tentang.html">TENTANG</a>
+          </li>
+        </ul>
+        <div class="search-bar">
+          <input type="text" />
+          <img src="/assets/search-icon.png" alt="" />
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <main class="aduan">
+      <section class="side-content">
+        <h2>Sebelum membuat aduan, perhatikan persyaratan berikut:</h2>
+        <ul>
+          <li>1. Tuliskan pesan aduan dengan jelas dan singkat.</li>
+          <li>2. Sertakan informasi kontak yang dapat dihubungi.</li>
+          <li>3. Pastikan file yang diunggah relevan dengan aduan.</li>
+          <li>4. Melampirkan identitas diri berupa KTP/KK/SIM</li>
+          <li>5. Membuat dan melampirkan berita acara kronologi kejadian</li>
+          <li>6. Melampirkan dokument bukti</li>
+          <li>7. Melampirkan data saksi yang mengetahui(jika ada)</li>
+          <li>8. Berkas disatukan dengan format .ZIP</li>
+        </ul>
+        <button class="help-button">Pusat Bantuan</button>
+      </section>
+      <form class="aduan-form">
+        <h2>Form Aduan</h2>
+        <div class="form-group">
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="no-hp">No HP:</label>
+          <input type="tel" id="no-hp" name="no-hp" required />
+        </div>
+
+        <div class="form-group">
+          <label for="upload">Upload:</label>
+          <input type="file" id="upload" name="upload" required />
+        </div>
+
+        <div class="submit-group">
+          <button type="submit">Laporkan</button>
+        </div>
+      </form>
+    </main>
+    <!-- end main -->
+    <footer>
+      <div class="footer-top">
+        <img src="/assets/logo_polri.png" alt="" />
+        <div>
+          <h5>KEPOLISIAN REPUBLIK INDONESIA</h5>
+          <p>
+            Dikembangkan Oleh <br />
+            Divisi Teknologi Informasi & Komunikasi PolriJl. Trunojoyo No. 3,
+            Kebayoran Baru, Jakarta Selatan,DKI Jakarta. 12110. (021) 5201719
+          </p>
+        </div>
+      </div>
+      <div class="copyright">
+        @WEBSITE RESMI KEPOLISIAN REPUBLIK INDONESIA © 2021
+      </div>
+    </footer>
+  </body>
+</html>
